@@ -1,9 +1,14 @@
-/* Import the pywal CSS file. */
-   @import url('file:///home/erkki/.cache/wal/colors.css');
+/* Import the pywal CSS file.
+   @import url('file:///home/{YOUR_USERNAME_HERE}/.cache/wal/colors.css');
+*/
 
 html {
+    background-color: #2f2f2f;
+    color: #eee;
+    /* PYWAL COLORS
     background-color: var(--color0);
     color: var(--color3);
+    */
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
@@ -33,7 +38,10 @@ h1 {
     height: 3rem;
     width: 40rem;
     font-size: 3rem;
+    background-color: #eee;
+    /* PYWAL COLORS
     background-color: var(--color1);
+    */
     padding: 3rem;
 }
 
@@ -54,6 +62,7 @@ a:link {
     color: inherit;
 }
 
+/* PYWAL COLORS
 .one {
     color: var(--color1);
 }
@@ -69,3 +78,4 @@ a:link {
 .four {
     color: var(--color5);
 }
+*/
