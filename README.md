@@ -3,7 +3,7 @@
 Simple startpage for web browser that I created for ricing my desktop environment. Features:
 
 * DuckDuckGo Search bar
-* Links to Google Drive, Github, Reddit and 4chan
+* Links to Google Drive, Gmail, Github, Reddit and 4chan
 
 # Usage 
 You can clone the repo and point the browser to this repo's index.html or you can use this GitHub hosted [address](erkhal.github.io/startpage). Mind you that the pywal colors do not work when using this site from the remote address.

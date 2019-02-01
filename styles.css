@@ -68,14 +68,18 @@ a:link {
 }
 
 .two {
-    color: var(--color3);
+    color: var(--color2);
 }
 
 .three {
-    color: var(--color4);
+    color: var(--color3);
 }
 
 .four {
+    color: var(--color4);
+}
+
+.five {
     color: var(--color5);
 }
 */
