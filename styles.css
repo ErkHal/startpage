@@ -36,14 +36,21 @@ h1 {
 
 .search-container .search {
     border: none;
+    border-bottom: 5px solid #eee;
     height: 3rem;
-    width: 40rem;
+    width: 20rem;
     font-size: 3rem;
-    background-color: #eee;
+    background-color: inherit;
     /* PYWAL COLORS
-    background-color: var(--color1);
+    border-bottom: 5px solid var(--color1);
     */
     padding: 3rem;
+    transition: ease-in-out, width .35s ease-in-out;
+}
+
+.search:focus {
+    width: 40rem;
+    outline: 0;
 }
 
 .hidden {
@@ -55,6 +62,7 @@ a {
    text-decoration: none; 
    font-family: 'DejaVu Sans';
    font-weight: 300;
+   transition: ease-in-out, font-size .25s ease-in-out;
 }
 
 a:visited {
@@ -63,6 +71,10 @@ a:visited {
 
 a:link {
     color: inherit;
+}
+
+a:hover {
+    font-size: 3rem;
 }
 
 /* PYWAL COLORS
